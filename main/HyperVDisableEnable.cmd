@@ -34,18 +34,18 @@ ECHO: HyperVDisableEnable %vers%
 ECHO:
 ECHO: Windows Build: %winbuild%
 ECHO:
-ECHO: Auto means = ON
+ECHO: Status:
 ECHO:-----------------------------
 bcdedit /enum | find /I "hypervisorlaunchtype"
 ECHO:-----------------------------
 ECHO:
-ECHO:2. Disable
+ECHO: 2. Disable
 ECHO:
-ECHO:3. Enable
+ECHO: 3. Enable
 ECHO:
-ECHO:5. Exit
+ECHO: 5. Exit
 ECHO:
-ECHO:7. Readme
+ECHO: 7. Readme
 ECHO:
 ECHO:===========================================================
 ECHO:
@@ -108,20 +108,21 @@ ECHO:
 ECHO: Made by Bluewave2
 ECHO:
 ECHO: https://github.com/Bluewave2/HyperV-Disable-Enable
-ECHO:-----------------------------
+ECHO:----------------------------------------------------------
 ECHO:                 -- Licenced GNU GPLv3 --
+ECHO:
 ECHO: A script made for easily disabling and enabling
 ECHO: Hyper-V for usage of virtualization products
 ECHO: without uninstalling features in Windows 10.
 ECHO: Feel free to contribute on the Github page.
 ECHO:
-ECHO:5. Exit
+ECHO: 5. Exit
 ECHO:
-ECHO:7. Main Menu
+ECHO: 7. Main Menu
 ECHO:
 ECHO:===========================================================
 ECHO:
-choice /C:75 /N /M ">Select an option with your Keyboard [2,3,5] : "
+choice /C:75 /N /M ">Select an option with your Keyboard [5,7] : "
 if errorlevel  2 goto:Exitnt
 if errorlevel  1 goto:P_start
 
