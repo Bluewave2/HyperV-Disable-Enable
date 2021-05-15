@@ -1,5 +1,5 @@
 # HyperV-Disable-Enable
-A simple script to disable Hyper-V and restart your pc , and to enable Hyper-V and restart your pc.
+A simple script to disable/enable Hyper-V and restart your pc.
 
 ## Use case
 This tool was made to:
