@@ -1,0 +1,1 @@
+powershell -Command "&{ Start-Process powershell -ArgumentList '-File C:\Users\Derin\Documents\GitHub\HyperV-Disable-Enable\HyperVDisableEnable.ps1' -Verb RunAs}"
