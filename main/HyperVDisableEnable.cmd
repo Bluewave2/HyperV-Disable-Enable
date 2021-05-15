@@ -27,6 +27,7 @@ set vers=v0.1
 title HyperVDisableEnable %vers%
 cls
 for /f "tokens=6 delims=[]. " %%G in ('ver') do set winbuild=%%G
+color 07
 ECHO:==========================================================
 ECHO:
 ECHO: HyperVDisableEnable %vers%
@@ -108,7 +109,7 @@ ECHO: Made by Bluewave2
 ECHO:
 ECHO: https://github.com/Bluewave2/HyperV-Disable-Enable
 ECHO:-----------------------------
-ECHO:
+ECHO:                 -- Licenced GNU GPLv3 --
 ECHO: A script made for easily disabling and enabling
 ECHO: Hyper-V for usage of virtualization products
 ECHO: without uninstalling features in Windows 10.
