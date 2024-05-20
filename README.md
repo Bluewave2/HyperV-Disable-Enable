@@ -13,7 +13,7 @@ A simple script to disable/enable Hyper-V and restart your pc.
 
 
 <!-- BEGIN LATEST DOWNLOAD BUTTON -->
-[![Download .qbtheme](https://custom-icon-badges.demolab.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download .cmd")](https://github.com/Bluewave2/HyperV-Disable-Enable/releases/download/v0.1/HyperVDisableEnable.cmd)
+[![Download .cmd](https://custom-icon-badges.demolab.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download .cmd")](https://github.com/Bluewave2/HyperV-Disable-Enable/releases/download/v1.0.0/HyperVDisableEnable-v1.0.0.cmd)
 <!-- END LATEST DOWNLOAD BUTTON -->
 
 ## Use case
@@ -36,4 +36,3 @@ This tool was made to:
 
 ------------------------------------------
 Bluewave2 - 2023
-
