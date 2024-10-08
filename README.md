@@ -9,7 +9,7 @@ A simple script to disable/enable Hyper-V and restart your pc.
 
 **Works for Virtual Machine Platform (WSL/WSL2) and Hyper-V**
 ********************************
-![7U1usokJI3](https://github.com/Bluewave2/HyperV-Disable-Enable/assets/83724034/28883186-a7c7-4d6d-83de-845e36a030d8)
+![s1eaWlv7Dd](https://github.com/user-attachments/assets/f324c6f7-99eb-4021-a47b-f669c2d8e2b6)
 
 
 ## Download
