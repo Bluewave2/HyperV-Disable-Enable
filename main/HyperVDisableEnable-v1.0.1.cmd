@@ -18,7 +18,7 @@ if '%errorlevel%' NEQ '0' (    echo Requesting administrative privileges...    g
 	REM echo Success: Administrative permissions confirmed.
 	REM timeout 1
 :P_start
-set vers=v1.0.0
+set vers=v1.0.1
 title HyperVDisableEnable %vers%
 cls
 for /f "tokens=6 delims=[]. " %%G in ('ver') do set winbuild=%%G
@@ -31,7 +31,12 @@ ECHO: Windows Build: %winbuild%
 ECHO:
 ECHO: Status:
 ECHO:-----------------------------
-%bcdedit /enum | find /I "hypervisorlaunchtype"%
+for /f "delims=" %%i in ('bcdedit /enum ^| find /I "hypervisorlaunchtype"') do (
+    ECHO %%i
+)
+if %errorlevel% neq 0 (
+    ECHO Hypervisor launch type not found. (May not be installed)
+)
 ECHO:-----------------------------
 ECHO:
 ECHO: 1. Disable
