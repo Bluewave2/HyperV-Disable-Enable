@@ -34,7 +34,7 @@ This tool was made to:
 
 ## Support the project
 - ⭐️ Star on GitHub
-- 🧰 Contribute via issues
+- 🧰 Contribute to the project
 - 😋 Spread the word!
 
 ------------------------------------------
