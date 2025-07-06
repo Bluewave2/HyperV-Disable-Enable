@@ -128,6 +128,7 @@ if errorlevel  1 goto:OpenGitHub
 
 :OpenGitHub
 start "" https://github.com/Bluewave2/HyperV-Disable-Enable
+goto:Readme
 
 :Restart
 ECHO Operation complete, restart required to finish.
