@@ -18,7 +18,7 @@ if '%errorlevel%' NEQ '0' (    echo Requesting administrative privileges...    g
 	REM echo Success: Administrative permissions confirmed.
 	REM timeout 1
 :P_start
-set vers=v1.0.1
+set vers=v1.0.2
 title HyperVDisableEnable %vers%
 cls
 for /f "tokens=6 delims=[]. " %%G in ('ver') do set winbuild=%%G
